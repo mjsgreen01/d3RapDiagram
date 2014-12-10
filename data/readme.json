@@ -1,0 +1,28 @@
+{
+  	"nodes":[
+		{"name":"snoop", "group":1},
+		{"name":"dre", "group":1},
+		{"name":"outkast", "group":1},
+		{"name":"natedogg", "group":1},
+		{"name":"mosdef", "group":1},
+		{"name":"wc", "group":1}
+		],
+	"links":[
+		{
+			"source":1, "target":0, "value":2
+		},
+		{
+			"source":2, "target":3, "value":3
+		},
+		{
+			"source":3, "target":2, "value":2
+		},
+		{
+			"source":2, "target":3, "value":2
+		},
+		{
+			"source":0, "target":3, "value":2
+		}
+
+	]
+}
